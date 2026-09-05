@@ -2,9 +2,6 @@
 
 > **An Agentic RAG System for Incident Analysis, Troubleshooting Guidance, and Remediation Instruction**
 
-> [!IMPORTANT]
-> **Advisory Scope Disclaimer**: CIRAA is an **instructional & advisory assistant**. It retrieves enterprise runbooks, post-mortems, and technical documentation to provide step-by-step diagnostic and remediation guidance to engineers. **It does NOT autonomously modify infrastructure, run SSH commands, or trigger automated production changes.** All remediation steps must be reviewed and executed manually by authorized personnel.
-
 ---
 
 ## 📋 Overview
@@ -26,7 +23,15 @@ By combining **LangGraph stateful orchestration**, **NeMo Guardrails**, **Qdrant
 - 📊 **Comprehensive Evaluation**: Built-in 6-metric **RAGAS** evaluation engine with a dedicated **Streamlit** dashboard.
 - 🔭 **Full Stack Observability**: Dual tracing with **Pydantic Logfire** and **LangSmith** across all agent nodes and API endpoints.
 
+
+https://github.com/user-attachments/assets/3ff51e11-0383-424f-a1a7-67d8c6f8921d
+
+
+
+
 ---
+> [!IMPORTANT]
+> **Advisory Scope Disclaimer**: CIRAA is an **instructional & advisory assistant**. It retrieves enterprise runbooks, post-mortems, and technical documentation to provide step-by-step diagnostic and remediation guidance to engineers. **It does NOT autonomously modify infrastructure, run SSH commands, or trigger automated production changes.** All remediation steps must be reviewed and executed manually by authorized personnel.
 
 ## ⚙️ Technical Parameters & Specifications
 
